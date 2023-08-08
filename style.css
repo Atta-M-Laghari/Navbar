@@ -1,15 +1,27 @@
-.navbar{
-    background-color:gray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: gray;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.item ul{
+
+.item ul {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.item ul li{
+
+.item ul li {
     list-style: none;
     color: white;
+}
+
+.banner {
+    background-color: blueviolet;
 }
